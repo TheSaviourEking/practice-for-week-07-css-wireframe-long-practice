@@ -1,0 +1,101 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    font-size: 1rem;
+}
+
+/* IMAGE */
+img {
+    width: 100%;
+    height: 100%;
+}
+
+/* header starts */
+.header,
+.footer {
+    padding: 1rem 2rem;
+}
+
+.nav__upper {
+    margin: 10px;
+}
+
+.upper__left,
+.footer__left {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+}
+
+.upper__right,
+.footer__right {
+    float: right;
+}
+
+.upper__right a {
+    color: green;
+}
+
+.upper__right a,
+.footer__right a {
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+.upper__right a+a {
+    border: 1px dotted green;
+}
+
+.nav__lower {
+    text-align: center;
+}
+
+.nav__lower a {
+    padding: 2rem 3rem;
+    color: black;
+    text-decoration: none;
+}
+/* end of header */
+
+/* start of content */
+.content {
+    margin: 0 auto;
+    width: 70%;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 3.6em;
+}
+
+.content img+p {
+    border-bottom: 1px solid black;
+    padding: 1rem 0;
+}
+
+.material-icons-outlined {
+    font-size: 1rem;
+    padding-left: 0.2rem;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    width: 80%;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid > a {
+    color: black;
+    padding: 1rem;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* FOOTER */
+.footer__right a {
+    color: #000;
+}
